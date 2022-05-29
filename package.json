@@ -1,19 +1,13 @@
 {
-  "name": "vanilla",
+  "name": "refetch-interval",
   "version": "1.0.0",
-  "description": "JavaScript example starter project",
-  "main": "index.html",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
+    "start": "node index.js"
   },
-  "dependencies": { "parcel-bundler": "^1.6.1" },
   "devDependencies": {
-    "@babel/core": "7.2.0",
-    "typescript": "4.4.4"
-  },
-  "resolutions": {
-    "@babel/preset-env": "7.13.8"
-  },
-  "keywords": ["javascript", "starter"]
+    "@types/node": "^17.0.21"
+  }
 }
